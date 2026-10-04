@@ -1,0 +1,21 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+*.Rproj
+
+# renv (keep renv.lock, ignore the library)
+renv/library/
+renv/staging/
+
+# Data and outputs - do not commit raw data or generated results
+data/*
+!data/README.md
+!data/sample_metadata_template.csv
+results/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
